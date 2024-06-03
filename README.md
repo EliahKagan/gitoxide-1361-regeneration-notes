@@ -23,7 +23,9 @@ index 2602d5df0..ef4c40b7f 100644
 Binary files a/gix-diff/tests/fixtures/generated-archives/make_diff_repo.tar.xz and b/gix-diff/tests/fixtures/generated-archives/make_diff_repo.tar.xz differ
 ```
 
-I'm not sure why. I believe that's one of the ones that came up like that when the tests were run on the main branch, too, though.
+I'm not sure why. However, this is not new. That is one of the archives that is regenerated even without `GIX_TEST_IGNORE_ARCHIVES=1` even when the tests were run on the main branch, both with [git 2.34.1](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-main-branch-run-1-downgraded-git-log) and [git 2.45.2](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-main-branch-run-2-log) on Ubuntu as well as the system-provided git on macOS. All three had the same such files:
+
+- TODO
 
 #### Re-running on Ubuntu, not using generated archives
 
