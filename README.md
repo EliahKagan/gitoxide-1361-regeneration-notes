@@ -8,10 +8,7 @@ The branch name freebsd relates to an original motivating reason for wanting the
 
 License for this gist: [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 
-## ToC
-
-- [Files](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#files)
-- [Specific Notes](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#specific-notes)
+The following is a guide to the [files in this gist](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#files) as well as some [specific notes](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#specific-notes).
 
 ## Files
 
