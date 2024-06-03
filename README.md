@@ -65,3 +65,9 @@ Those are the exact same tests that had failed before when run this way, shown i
 ### Post-testing on macOS
 
 My access to interactively usable macOS systems is limited. I can eventually test this if necessary.
+
+### Post-testing on FreeBSD
+
+I don't have the ability to run my FreeBSD system right now. I should be able to try this in the next couple of days. This might not be a blocker for proceeding with https://github.com/Byron/gitoxide/pull/1361, which has justifications beyond FreeBSD compatibility.
+
+If and when this is done, the results should be compared to https://gist.github.com/EliahKagan/ede466f2d3f14ccc021c1c17fabd5015#file-output-txt-L2871 (as the "14 failures remaining" link points to from https://github.com/Byron/gitoxide/pull/1361).
