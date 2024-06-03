@@ -12,7 +12,9 @@ License for this gist: [CC0-1.0](https://creativecommons.org/publicdomain/zero/1
 
 ## Files
 
-Runs on the main branch, using generated archives as usual, to show what archives were already not used, even without any feature branch changes, i.e., to allow which files are modified in such runs to be inspected:
+### Without the shebang change or regeneration
+
+These are on the main branch, using generated archives as usual, to show what archives were already not used, even without any feature branch changes, i.e., to allow which files are modified in such runs to be inspected:
 
 - [`main-branch-run-1-downgraded-git.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-main-branch-run-1-downgraded-git-log)\
   A run on the main branch, on Ubuntu 22.04 LTS, using git 2.34.1.
