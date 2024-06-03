@@ -31,7 +31,11 @@ I'm not sure why. However, this is not new. That is one of the archives that is 
         modified:   gix/tests/fixtures/generated-archives/make_status_repos.tar.xz
 ```
 
-In contrast, only the first one, in `gix-diff`, differs when the tests are rerun on Ubuntu on the feature branch where the shebangs have been made more portable and the archives have been regeenrated.
+In contrast, only the first one, in `gix-diff`, differs when the tests are rerun on Ubuntu on the feature branch where the shebangs have been made more portable and the archives have been regenerated:
+
+```text
+        modified:   gix-diff/tests/fixtures/generated-archives/make_diff_repo.tar.xz
+```
 
 #### Re-running on Ubuntu, not using generated archives
 
