@@ -33,7 +33,32 @@ Rerunning on Ubuntu [without using pre-generated archives](https://gist.github.c
 
 #### Running on Windows, not using generated archives
 
-***In progress.*** Note that running with `GIX_TEST_IGNORE_ARCHIVES=1` has never passed all tests on Windows, so the goal here will be to compare to what was failing before, as seen in https://github.com/Byron/gitoxide/issues/1358.
+[Running the tests on Windows again, but without using pre-generated archives](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-post-regeneration-windows-run-ignore-archives-log) produced 16 failures.
+
+Running with `GIX_TEST_IGNORE_ARCHIVES=1` has never passed all tests on Windows, so the goal here is to compare to what was failing before, as seen in https://github.com/Byron/gitoxide/issues/1358.
+
+The failures this time were:
+
+```text
+     Summary [ 805.476s] 2351 tests run: 2335 passed (17 slow, 14 leaky), 16 failed, 9 skipped
+        FAIL [   7.350s] gix-glob::glob pattern::matching::compare_baseline_with_ours
+        FAIL [   7.628s] gix-pathspec::pathspec parse::baseline
+        FAIL [   0.045s] gix-pathspec::pathspec parse::valid::glob_negations_are_always_literal
+        FAIL [   0.077s] gix-pathspec::pathspec parse::valid::whitespace_in_pathspec
+        FAIL [   6.129s] gix-pathspec::pathspec search::files
+        FAIL [  10.753s] gix-pathspec::pathspec search::prefixes_are_always_case_sensitive
+        FAIL [ 180.981s] gix-ref-tests::refs packed::iter::performance
+        FAIL [   4.751s] gix-submodule::submodule file::baseline::common_values_and_names_by_path
+        FAIL [  35.035s] gix-submodule::submodule file::is_active_platform::pathspecs_matter_even_if_they_do_not_match
+        FAIL [  28.607s] gix-submodule::submodule file::is_active_platform::submodules_with_active_config_are_considered_active_or_inactive
+        FAIL [  21.430s] gix-submodule::submodule file::is_active_platform::submodules_with_active_config_override_pathspecs
+        FAIL [  14.781s] gix-submodule::submodule file::is_active_platform::without_any_additional_settings_all_are_inactive_if_they_have_a_url
+        FAIL [   9.120s] gix-submodule::submodule file::is_active_platform::without_submodule_in_index
+        FAIL [  26.757s] gix::gix object::tree::diff::track_rewrites::copies_in_entire_tree_by_similarity_with_limit
+        FAIL [   0.182s] gix::gix revision::spec::from_bytes::regex::find_youngest_matching_commit::regex_matches
+        FAIL [   0.088s] gix::gix revision::spec::from_bytes::regex::with_known_revision::contained_string_matches_in_unanchored_regex_and_disambiguates_automatically
+error: test run failed
+```
 
 ### Post-testing on macOS
 
