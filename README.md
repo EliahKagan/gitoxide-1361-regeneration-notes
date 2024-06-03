@@ -48,13 +48,13 @@ These are logs of manually initiated test suite runs on the feature branch that 
   On the feature branch, on Ubuntu 22.04 LTS, using the generated archives, with git 2.45.2.
 
 - [`post-regeneration-rerun-2-ignore-archives.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-post-regeneration-rerun-2-ignore-archives-log)\
-  On the feature branch, on Ubuntu 22.04 LTS, with `GIX_TEST_IGNORE_ARCHIVES=1`, with git 2.45.2.
+  On the feature branch, on Ubuntu 22.04 LTS, with GIX_TEST_IGNORE_ARCHIVES=1, with git 2.45.2.
 
 - [`post-regeneration-rerun-3-downgraded-git.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-post-regeneration-rerun-3-downgraded-git-log)\
   On the feature branch, on Ubuntu 22.04 LTS, using the generated archives, with git 2.34.1.
 
 - [`post-regeneration-rerun-4-downgraded-git-ignore-archives.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-post-regeneration-rerun-4-downgraded-git-ignore-archives-log)\
-  On the feature branch, on Ubuntu 22.04 LTS, with `GIX_TEST_IGNORE_ARCHIVES=1`, with git 2.34.1.
+  On the feature branch, on Ubuntu 22.04 LTS, with GIX_TEST_IGNORE_ARCHIVES=1, with git 2.34.1.
 
 #### macOS
 
