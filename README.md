@@ -8,6 +8,8 @@ The branch name freebsd relates to an original motivating reason for wanting the
 
 The actual run that regenerated the archives (which were then staged and committed, as also show) began at https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-gitoxide-regenerate-archives-log-L8455. Everything before that was just some pre-runs to verify some assumptions.
 
+License for this gist: [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
 ### Post-testing on Ubuntu
 
 #### Re-running on Ubuntu, using generated archives
