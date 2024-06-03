@@ -33,7 +33,7 @@ These are logs from the session where I regenerated the archives:
   Some checks and setup for regenerating the logs, such as installing git 2.45.2 from the PPA and testing it.
 
 - [**`gitoxide-regenerate-archives-2-regenerate.log`**](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-gitoxide-regenerate-archives-2-regenerate-log)\
-  **Actually regenerating the archives!**
+  **Actually regenerating the archives.**
 
 - [`gitoxide-regenerate-archives.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-gitoxide-regenerate-archives-log)\
   The contents of the above two files together. Kept in case it is is use, but it's hard to work with this.
