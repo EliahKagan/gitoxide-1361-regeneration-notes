@@ -59,10 +59,10 @@ These are logs of manually initiated test suite runs on the feature branch that 
 #### macOS
 
 - [`post-regeneration-macos-run-1.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-post-regeneration-macos-run-1-log)\
-  On the feature branch, on macOS 14, using the generated archives.
+  On the feature branch, on macOS 14, using the generated archives, with git 2.39.3.
 
 - [`post-regeneration-macos-run-2-ignore-archives.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-post-regeneration-macos-run-2-ignore-archives-log)\
-  On the feature branch, on macOS 14, with GIX_TEST_IGNORE_ARCHIVES=1.
+  On the feature branch, on macOS 14, with GIX_TEST_IGNORE_ARCHIVES=1, with git 2.39.3.
 
 #### Windows
 
