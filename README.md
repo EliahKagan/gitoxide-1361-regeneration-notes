@@ -10,6 +10,11 @@ The actual run that regenerated the archives (which were then staged and committ
 
 License for this gist: [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 
+## ToC
+
+- [Files](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#files)
+- [Specific Notes](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#specific-notes)
+
 ## Files
 
 ### Without the shebang change or regeneration
