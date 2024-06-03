@@ -76,11 +76,16 @@ Those are the exact same tests that had failed before when run this way, shown i
 
 #### Running on macOS, using generated archives
 
-[Running the tests on macOS 14.5 after the regenerated archives were in place](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-post-regeneration-macos-run-1-log) worked, with all tests passing. But one file was modified:
+[Running the tests on macOS 14.5 after the regenerated archives were in place](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-post-regeneration-macos-run-1-log) worked, with all tests passing. But two archives were modified:
 
-- TODO
+```text
+        modified:   gix-diff/tests/fixtures/generated-archives/make_diff_repo.tar.xz
+        modified:   gix-discover/tests/fixtures/generated-archives/make_exfat_repo_darwin.tar.xz
+```
 
-### Post-testing on FreeBSD
+The first is the one that is also modified in Ubuntu re-runs. The second appears to be modified because it was actually not regenerated at all, due the test that uses it only running on macOS.
+
+### Post-testing on FreeBSD?
 
 I don't have the ability to run my FreeBSD system right now. I should be able to try this in the next couple of days. This might not be a blocker for proceeding with https://github.com/Byron/gitoxide/pull/1361, which has justifications beyond FreeBSD compatibility.
 
