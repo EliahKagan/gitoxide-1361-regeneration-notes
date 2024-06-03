@@ -27,6 +27,8 @@ These are on the main branch, using generated archives as usual, to show what ar
 
 ### Regenerating the archives
 
+These are logs from the session where I regenerated the archives:
+
 - [`gitoxide-regenerate-archives-1-prep.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-gitoxide-regenerate-archives-1-prep-log)\
   Some checks and setup for regenerating the logs, such as installing git 2.45.2 from the PPA and testing it.
 
