@@ -16,3 +16,5 @@ Binary files a/gix-diff/tests/fixtures/generated-archives/make_diff_repo.tar.xz 
 ```
 
 I'm not sure why. I believe that's one of the ones that came up like that when the tests were run on the main branch, too, though.
+
+[Running the tests on Windows after the regenerated archives were in place](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-post-regeneration-windows-run-txt) worked, all tests passing and no tracked files modified.
