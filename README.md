@@ -6,8 +6,6 @@ Note that, in spite of being unfortunately named noble-x64, the system this was 
 
 The branch name freebsd relates to an original motivating reason for wanting the compatibility improvement conferred by changing the #! lines (see the PR). The system the archives were regenerated on is not FreeBSD either.
 
-The actual run that regenerated the archives (which were then staged and committed, as also show) began at line 8455 of [the full log](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-gitoxide-regenerate-archives-log). Everything before that was just some pre-runs to verify some assumptions. That file is kept so it remains available, since it was present in the original version of this gist when updated information was provided at https://github.com/Byron/gitoxide/pull/1361. But it is easier instead to work with [the log of the preparation/checks](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-gitoxide-regenerate-archives-1-prep-log) and [the log of the actual regeneration and subsequent inspection](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-gitoxide-regenerate-archives-2-regenerate-log).
-
 License for this gist: [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 
 ## ToC
