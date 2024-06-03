@@ -31,7 +31,7 @@ Rerunning on Ubuntu [without using pre-generated archives](https://gist.github.c
 
 #### Running on Windows, using generated archives
 
-[Running the tests on Windows after the regenerated archives were in place](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-post-regeneration-windows-run-txt) worked, all tests passing and no tracked files modified.
+[Running the tests on Windows after the regenerated archives were in place](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-post-regeneration-windows-run-log) worked, all tests passing and no tracked files modified.
 
 #### Running on Windows, not using generated archives
 
