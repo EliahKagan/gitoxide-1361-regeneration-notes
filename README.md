@@ -22,6 +22,9 @@ These are on the main branch, using generated archives as usual, to show what ar
 - [`main-branch-run-2.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-main-branch-run-2-log)\
   A run on the main branch, on Ubuntu 22.04 LTS, using git 2.45.2.
 
+- [`main-branch-macos-run.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-main-branch-macos-run-log)\
+  A run on the main branch, on macOS 14.5, with git 2.39.3 (Apple Git-146).
+
 ## Specific Notes
 
 ### Post-testing on Ubuntu
