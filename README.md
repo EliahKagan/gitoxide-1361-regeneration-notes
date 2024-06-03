@@ -6,7 +6,7 @@ The branch name freebsd relates to an original motivating reason for wanting the
 
 The actual run that regenerated the archives (which were then staged and committed, as also show) began at https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-gitoxide-regenerate-archives-log-L8455. Everything before that was just some pre-runs to verify some assumptions.
 
-After regenerating the archives and committing, I did a `gix clean -xde` and ran the tests again (with the same command). One archive was changed:
+After regenerating the archives and committing, I [did a `gix clean -xde` and ran the tests again](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-post-regeneration-rerun-log) (with the same command). One archive was changed:
 
 ```text
 ek@noble-x64:~/repos/gitoxide (freebsd *=)$ git diff
