@@ -25,7 +25,11 @@ Binary files a/gix-diff/tests/fixtures/generated-archives/make_diff_repo.tar.xz 
 
 I'm not sure why. However, this is not new. That is one of the archives that is regenerated even without `GIX_TEST_IGNORE_ARCHIVES=1` even when the tests were run on the main branch, both with the [system-provided git 2.34.1](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-main-branch-run-1-downgraded-git-log) and [git-core PPA git 2.45.2](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-main-branch-run-2-log) on Ubuntu as well as the [system-provided git on macOS](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-main-branch-macos-run-log). All three had the same such files:
 
-- TODO
+```text
+        modified:   gix-diff/tests/fixtures/generated-archives/make_diff_repo.tar.xz
+        modified:   gix/tests/fixtures/generated-archives/make_head_repos.tar.xz
+        modified:   gix/tests/fixtures/generated-archives/make_status_repos.tar.xz
+```
 
 #### Re-running on Ubuntu, not using generated archives
 
