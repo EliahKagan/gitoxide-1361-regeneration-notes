@@ -37,9 +37,7 @@ Rerunning on Ubuntu [without using pre-generated archives](https://gist.github.c
 
 [Running the tests on Windows again, but without using pre-generated archives](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-post-regeneration-windows-run-ignore-archives-log) produced 16 failures.
 
-Running with `GIX_TEST_IGNORE_ARCHIVES=1` has never passed all tests on Windows, so the goal here is to compare to what was failing before, as seen in https://github.com/Byron/gitoxide/issues/1358.
-
-The failures this time were:
+Running with `GIX_TEST_IGNORE_ARCHIVES=1` has never passed all tests on Windows, so the goal here is to compare to what was failing before, as seen in https://github.com/Byron/gitoxide/issues/1358. The failures this time were:
 
 ```text
      Summary [ 805.476s] 2351 tests run: 2335 passed (17 slow, 14 leaky), 16 failed, 9 skipped
@@ -61,6 +59,8 @@ The failures this time were:
         FAIL [   0.088s] gix::gix revision::spec::from_bytes::regex::with_known_revision::contained_string_matches_in_unanchored_regex_and_disambiguates_automatically
 error: test run failed
 ```
+
+Those are the exact same tests that had failed before when run this way, shown in https://github.com/Byron/gitoxide/issues/1358. So I think we are okay there, as far as proceeding with https://github.com/Byron/gitoxide/pull/1361 is concerned.
 
 ### Post-testing on macOS
 
