@@ -38,6 +38,32 @@ These are logs from the session where I regenerated the archives:
 - [`gitoxide-regenerate-archives.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-gitoxide-regenerate-archives-log)\
   The contents of the above two files together. Kept in case it is is use, but it's hard to work with this.
 
+### Post-checks
+
+These are logs of manually initiated test suite runs on the feature branch that has the regenerated archives committed to it, on multiple systems, supplementing the CI checks in https://github.com/Byron/gitoxide/pull/1361:
+
+#### Ubuntu
+
+- [`post-regeneration-rerun-1.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-post-regeneration-rerun-1-log)\
+  On the feature branch, on Ubuntu 22.04 LTS, using the generated archives, with git 2.45.2.
+
+- [`post-regeneration-rerun-2-ignore-archives.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-post-regeneration-rerun-2-ignore-archives-log)\
+  On the feature branch, on Ubuntu 22.04 LTS, with `GIX_TEST_IGNORE_ARCHIVES=1`, with git 2.45.2.
+
+- [`post-regeneration-rerun-3-downgraded-git.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-post-regeneration-rerun-3-downgraded-git-log)\
+  On the feature branch, on Ubuntu 22.04 LTS, using the generated archives, with git 2.34.1.
+
+- [`post-regeneration-rerun-4-downgraded-git-ignore-archives.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-post-regeneration-rerun-4-downgraded-git-ignore-archives-log)\
+  On the feature branch, on Ubuntu 22.04 LTS, with `GIX_TEST_IGNORE_ARCHIVES=1`, with git 2.34.1.
+
+#### macOS
+
+- TODO: List these.
+
+#### Windows
+
+- TODO: List these.
+
 ## Specific Notes
 
 ### Post-testing on Ubuntu
