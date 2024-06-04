@@ -112,6 +112,8 @@ The one macOS-specific regenerated archive is not releated to FreeBSD, but I had
 
 ## Specific Notes
 
+These have not been updated for "Round 2," except that the note that indicated that I had not done FreeBSD runs has been modified to clarify that this is no longer the case.
+
 ### Post-testing on Ubuntu
 
 #### Re-running on Ubuntu, using generated archives
@@ -195,8 +197,8 @@ error: test run failed
 
 Those are the exact same tests that had failed before when run this way, shown in https://github.com/Byron/gitoxide/issues/1358. So I think we are okay there, as far as proceeding with https://github.com/Byron/gitoxide/pull/1361 is concerned.
 
-### Post-testing on FreeBSD?
+### Post-testing on FreeBSD
 
-I don't have the ability to run my FreeBSD system right now. I should be able to try this in the next couple of days. This might not be a blocker for proceeding with https://github.com/Byron/gitoxide/pull/1361, which has justifications beyond FreeBSD compatibility.
+I didn't have a chance to test on a FreeBSD during the first round, but I did it after the second round.
 
-If and when this is done, the results should be compared to https://gist.github.com/EliahKagan/ede466f2d3f14ccc021c1c17fabd5015#file-output-txt-L2871 (as the "14 failures remaining" link points to from https://github.com/Byron/gitoxide/pull/1361).
+Comparing to https://gist.github.com/EliahKagan/ede466f2d3f14ccc021c1c17fabd5015#file-output-txt-L2871 (as the "14 failures remaining" link points to from https://github.com/Byron/gitoxide/pull/1361) reveals that, whether the generated archives are used or not, the same tests fail, and these are 12 of the 14 tests that had failed before when the new portable shebang was used without having committed regenerated archives.
