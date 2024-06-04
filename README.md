@@ -91,6 +91,8 @@ That seems to have been due to random events, since three more separate test run
 - [`round2-add-one-macos-specific-4-rerun-c-pass.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-round2-add-one-macos-specific-4-rerun-c-pass-log)
 - [`round2-add-one-macos-specific-5-rerun-d-pass.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-round2-add-one-macos-specific-5-rerun-d-pass-log)
 
+Where all the above test runs used the generated archives.
+
 #### Ubuntu
 
 Since only one regenerated archive was committed in round 2, I only did one retest on the original Ubuntu system.
