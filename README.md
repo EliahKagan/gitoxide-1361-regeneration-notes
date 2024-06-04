@@ -88,8 +88,8 @@ The first clean test run on macOS after the round-2 single-archive regeneration 
 That seems to have been due to random events, since three more separate test runs afterwards all passed:
 
 - [`round2-add-one-macos-specific-3-rerun-b-pass.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-round2-add-one-macos-specific-3-rerun-b-pass-log)
-- [`round2-add-one-macos-specific-3-rerun-b-pass.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-round2-add-one-macos-specific-4-rerun-c-pass-log)
-- [`round2-add-one-macos-specific-3-rerun-b-pass.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-round2-add-one-macos-specific-5-rerun-d-pass-log)
+- [`round2-add-one-macos-specific-4-rerun-b-pass.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-round2-add-one-macos-specific-4-rerun-c-pass-log)
+- [`round2-add-one-macos-specific-5-rerun-b-pass.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-round2-add-one-macos-specific-5-rerun-d-pass-log)
 
 #### Ubuntu
 
