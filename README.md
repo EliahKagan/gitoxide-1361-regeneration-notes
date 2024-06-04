@@ -72,6 +72,42 @@ These are logs of manually initiated test suite runs on the feature branch that 
 - [`post-regeneration-windows-run-2-ignore-archives.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-post-regeneration-windows-run-2-ignore-archives-log)\
   On the feature branch, on Windows 10, with GIX_TEST_IGNORE_ARCHIVES=1, with git 2.45.1.
 
+### Round 2: Regenerating one last archive on macOS
+
+- [**`round2-add-one-macos-specific-1-regenerate.log`**](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-round2-add-one-macos-specific-1-regenerate-log)\
+  **Regenerating gix-discover/tests/fixtures/generated-archives/make_exfat_repo_darwin.tar.xz on macOS 14.5.**
+
+### Round 2: Post-checks
+
+#### macOS
+
+The first clean test run on macOS after the round-2 single-archive regeneration had one failing test:
+
+- [`round2-add-one-macos-specific-2-rerun-a-fail.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-round2-add-one-macos-specific-2-rerun-a-fail-log)
+
+That seems to have been due to random events, since three more separate test runs afterwards all passed:
+
+- [`round2-add-one-macos-specific-3-rerun-b-pass.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-round2-add-one-macos-specific-3-rerun-b-pass-log)
+- [`round2-add-one-macos-specific-3-rerun-b-pass.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-round2-add-one-macos-specific-4-rerun-c-pass-log)
+- [`round2-add-one-macos-specific-3-rerun-b-pass.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-round2-add-one-macos-specific-5-rerun-d-pass-log)
+
+#### Ubuntu
+
+Since only one regenerated archive was committed in round 2, I only did one retest on the original Ubuntu system.
+
+- [`round2-post-regeneration-ubuntu.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-round2-post-regeneration-ubuntu-log)\
+  On the fast-forwarded feature branch on Ubuntu 22.04 LTS, using the generated archives, with git 2.45.2.
+
+#### FreeBSD
+
+The one macOS-specific regenerated archive is not releated to FreeBSD, but I had not tested regenerated archives with FreeBSD in round one, so I did it now.
+
+- [`round2-post-regeneration-freebsd-run-1.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-round2-post-regeneration-freebsd-run-1-log)\
+  On the fast-forwarded feature branch on FreeBSD 14.0-RELEASE, using the generated archives, with git 2.45.1.
+
+- [`round2-post-regeneration-freebsd-run-2-ignore-archives.log`](https://gist.github.com/EliahKagan/e83322aba8687589df874943ad203e9f#file-round2-post-regeneration-freebsd-run-2-ignore-archives-log)\
+  On the fast-forwarded feature branch on FreeBSD 14.0-RELEASE, with GIX_TEST_IGNORE_ARCHIVES=1, with git 2.45.1.
+
 ## Specific Notes
 
 ### Post-testing on Ubuntu
